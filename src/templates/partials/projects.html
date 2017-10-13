@@ -1,5 +1,5 @@
 <div class="container project-container">
-  <h1>My Projects</h1>
+  <h1>Programming Projects</h1>
   {% for project in projects %}
     <div class="project">
       <div class="project__img-container">
@@ -47,7 +47,59 @@
             {% endfor %}
           </div>
         </p>
+
+      </div>
+    </div>
+  {% endfor %}
+
+  <h1>Other Projects</h1>
+  {% for project in otherProjects %}
+    <div class="project">
+      <div class="project__img-container">
+        {% assign alt = project.alt %}
+        {% unless project.alt %}
+          {% capture alt %}{{ project.name }} Screenshot{% endcapture %}
+        {% endif %}
+        <img class="project__img" src="img/{{ project.img }}" alt="{{alt}}">
+      </div>
+      <div class="project__details">
+        <h2 class="project__name">
+          {{ project.name }}
+        </h2>
+        <div class="skill-tags">
+          {% for tag in project.tags %}
+            <div class="skill-tag">{{ tag }}</div>
+          {% endfor %}
+        </div>
         
+        {% if project.description %}
+        <p>
+          {{ project.description}}
+        </p>
+        {% endif %}
+
+
+        {% if project.projectDescription %}
+        <p>
+          {{ project.projectDescription}}
+        </p>
+        {% endif %}
+
+     
+
+        {% if project.technicalDescription %}
+        <p>
+          {{ project.technicalDescription}}
+        </p>
+        {% endif %}
+          
+        <p>
+          <div>
+            {% for button in project.buttons %}
+              <a class="btn" href="{{button.url}}" target="_blank">{{button.text}}</a>
+            {% endfor %}
+          </div>
+        </p>
       </div>
     </div>
   {% endfor %}
