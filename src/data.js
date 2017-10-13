@@ -124,6 +124,28 @@ module.exports = {
           text: "Webplayer (obsolete)",
           url: "https://people.dsv.su.se/~emli5523/gtt/"
         }
+      ],
+      otherProjects: [
+        {
+          name: 'Beneath',
+          projectDescription: 'A 8-man project work for a 3D animation program. We had a half semester worth of time to create a short 3d-animation in Maya using Disneys 12 animation principles. Everything was created by our group but the main focus of the project was on the animation. My tasks were animation, 3D-modelling and UV-mapping and some MEL-scripting. I animated the scene from 2:54 to the end credits. I created tools with MEL to assist parts of the project, such as the animation of the shaking manhole lid and the water rendering.',
+          description: 'Beneath is a 3-min animated 3D short film about a father and a son who works as sewer explorers in Stockholm. Beneath was shown at <a href="http://tellusbio.nu/">Biocafé Tellus</a>.',
+          technicalDescription: 'Made with Maya.',
+          tags: ['3D Animation', 'MEL', 'Maya'],
+          alt: 'Combustion Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
+          img: '.png',
+          gitsource: '', //https://github.com/e4lime/ludum-dare-37-mutrix' (Using button instead)
+          buttons: [
+            {
+              text: "Animation (Starts at my scene)",
+              url: "https://youtu.be/pMTGHuOTu7g?t=2m53s"
+            },
+            {
+              text: "From the beginning",
+              url: "https://youtu.be/pMTGHuOTu7g"
+            }
+          ]
+        }
       ]
     }
   ]
