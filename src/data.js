@@ -20,19 +20,111 @@ module.exports = {
   ],
   projects: [
     {
-      name: 'Combustion',
-      description: 'Combustion is a sleek, modern web client for the transmission bittorrent client.',
-      tags: ['React', 'Javascript', 'Webpack', 'Mobx', 'CSSModules'],
+      name: 'Mutrix',
+      description:  'An FPS-puzzle game made for the <a href="http://ludumdare.com/compo/rules/"> Ludum Dare 37 Compo</a> competition. Got ranked #39 in innovation!',
+      technicalDescription: 'Made with the Unity game engine using C#.',
+      tags: ['Unity', 'C#', 'Ludum Dare 37'],
       alt: 'Combustion Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
-      img: 'combustion.png',
-      url: '//'
+      img: '.png',
+      gitsource: '', //https://github.com/e4lime/ludum-dare-37-mutrix' (Using button instead)
+      buttons: [
+        {
+          text: "Game page",
+          url: "http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=35008"
+        },
+        {
+          text: "Gameplay video",
+          url: "https://youtu.be/j00fgO9FKAI"
+        },
+        {
+          text: "Source",
+          url: 'https://github.com/e4lime/ludum-dare-37-mutrix'
+        }
+      ]
     },
     {
-      name: 'Merc-01',
-      description: 'Merc-01 is a fast paced twin-stick shooter built on top of pyglet.',
-      tags: ['Python', 'WebGL', 'Pyglet'],
-      img: 'merc-01.png',
-      url: '//'
+      name: 'Hi Pluto!',
+      description: 'Infinite vertical jumping game made for the <a href="https://ldjam.com/events/ludum-dare/38"> Ludum Dare 38 Compo</a> competition.',
+      technicalDescription: 'Made with the Unity game engine using C#. Implemented <a href="https://unity3d.com/unity/features/analytics">Unity Analytics</a> to gain insight on how users would interact within the game.',
+      tags: ['Unity', 'C#', 'Ludum Dare 38'],
+      img: '.png',
+      buttons: [
+        {
+          text: "Game page",
+          url: "https://ldjam.com/events/ludum-dare/38/hi-pluto"
+        },
+        {
+          text: "Gameplay video",
+          url: "https://youtu.be/MKpjr7k8pFg"
+        },
+        {
+          text: "Source",
+          url: 'https://github.com/e4lime/ludum-dare-38-hi-pluto'
+        }
+      ]
+    },
+    {
+      name: "Tic-Tac-Toe Online",
+      description: "A classic Tic-tac-toe game with a game server room",
+      technicalDescription: "Clients connects to a master server which keeps track of active game servers. Clients can create their own custom games and register them with the master server so other clients can easily find them. The custom games themselfs are run on the hosting client. Made in Java with the network package java.net.",
+      tags: ["Online Multiplayer", "Java"],
+      buttons: [
+        {
+          text: "Screenshots",
+          url: "www.emillindberg.com"
+        },
+        {
+          text: "Source",
+          url: "https://github.com/e4lime/tic-tac-toe-online"
+        }
+      ]
+    },
+    {
+      name: "Lime Engine",
+      description: "A simple game engine with a top down shooter game built upon the engine.",
+      technicalDescription: "Made with C++ and Simple DirectMedia Layer (SDL) 1.2",
+      tags: ["C++", "SDL 1.2"],
+      buttons: [
+        {
+          text: "Source",
+          url: "https://github.com/e4lime/lime-engine"
+        }
+      ]
+    },
+    {
+      name: "Cat Voxel City",
+      description: "A mobile game I'm making with graphic designer <a href='http://www.alkazmi.com/'> Hassan Al Kazmi</a>. You drive through a city and throw cats on objects to gain points while you avoid vechicles and obstacles.",
+      technicalDescription: "Made with the Unity game engine using C#.",
+      tags: ["Unity", "C#"],
+      buttons: [
+        {
+          text: "Gameplay video",
+          url: "https://youtu.be/9mRTfZzEfmk"
+        }
+        //,
+       // {
+       //   text: "Source (Only script assets)",
+        //  url: "www.google.com"
+       // }
+      ]
+    }
+    ,
+    {
+      name: "Get The Treasure!",
+      projectDescription: 'A 7-man group project work for the last course in my game development bachelor program. I was assigned "Lead Programmer" and were responsible for the gameplay and networking functionality. I was also the SCRUM-master for a few sprints. Made in 2011.',
+      description: 'Get The Treasure! is a online multiplayer game where you play as one of four burglars who breaks into a museum. The goal is to steal as much loot as possible while preventing the other burglars from stealing more than you. The game never got finished beyond a vertical slice.',
+      technicalDescription: 'Made with the Unity game engine using C#. The Networking was done with much appreciated help from the now obsolete "<a href="https://forum.unity.com/threads/ultimate-unity-networking-project-add-multiplayer-to-your-game-today.75385/">Ultimate Unity Networking project</a>".',
+      tags: ["Online Multiplayer", "Unity", "C#"],
+      buttons: [
+        {
+          text: "Gameplay (Commentary in Swedish)",
+          url: "https://youtu.be/SLyq6plJkrw"
+        }, 
+        {
+          text: "Webplayer (obsolete)",
+          url: "https://people.dsv.su.se/~emli5523/gtt/"
+        }
+      ]
     }
   ]
 }
