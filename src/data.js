@@ -34,32 +34,5 @@ module.exports = {
       img: 'merc-01.png',
       url: '//'
     }
-  ],
-  experiences: [
-    {
-      title: 'Senior Software Engineer at Company A',
-      timeline: 'Jan 2016 - Present',
-      description: 'Implemented Gamification for system',
-    },
-    {
-      title: 'Fullstack Software Engineer at Company B',
-      timeline: 'Feb 2015 - Dec 2015',
-      responsibilities: [
-        'Worked with a global team of developers and artists for the implementation of new features in Existing Codebase of a Free-to-play MMO',
-        'Increased rate of tickets/tasks done by the team up to 300% within first few weeks!',
-        'Added Abstractions on Server API to Minimize Duplicate Code'
-      ]
-    }
-  ],
-  testimonials: [
-    {
-      quote: 'Incredibly talented and hardworking. A super friendly guy who is a frequent communicator',
-      name: 'Person Name',
-      title: 'CEO at Company'
-    },
-    {
-      quote: 'Wow, thank you for this, you probably have the most intuitive explanation for this problem!',
-      name: 'Person Name'
-    }
   ]
 }
