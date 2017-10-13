@@ -18,12 +18,28 @@
             <div class="skill-tag">{{ tag }}</div>
           {% endfor %}
         </div>
+
+        {% if project.description %}
         <p>
-          {{ project.description }}
-          <div>
-            <a class="btn" href="{{project.url}}" target="_blank">View Project</a>
-          </div>
+          {{ project.description}}
         </p>
+        {% endif %}
+
+
+        {% if project.projectDescription %}
+        <p>
+          {{ project.projectDescription}}
+        </p>
+        {% endif %}
+
+     
+
+        {% if project.technicalDescription %}
+        <p>
+          {{ project.technicalDescription}}
+        </p>
+        {% endif %}
+
       </div>
     </div>
   {% endfor %}
