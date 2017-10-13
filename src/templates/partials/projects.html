@@ -40,6 +40,14 @@
         </p>
         {% endif %}
 
+        <p>
+          <div>
+            {% for button in project.buttons %}
+              <a class="btn" href="{{button.url}}" target="_blank">{{button.text}}</a>
+            {% endfor %}
+          </div>
+        </p>
+        
       </div>
     </div>
   {% endfor %}
