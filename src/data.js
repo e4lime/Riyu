@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Emil Lindbergh',
+  title: 'Emil Lindberg',
   header: "Emil Lindberg",
   description: "Software developer based in Stockholm, Sweden. Love creating video games, play and listen to music, strength training and learning new things.",
   name: 'Emil Lindberg',
