@@ -11,12 +11,12 @@ module.exports = {
     url: 'resume.pdf',
   },
   socials: [
-    { icon: 'twitter', url: '//' },
-    { icon: 'github-circled', url: '//' },
+    //{ icon: 'twitter', url: '//' },
+    { icon: 'github-circled', url: 'https://github.com/e4lime' },
     { icon: 'mail-alt' }, // mail alt automatically links to mailto:email
-    { icon: 'dribbble', url: '//' },
-    { icon: 'skype', url: '//' },
-    { icon: 'linkedin-squared', url: '//' },
+    //{ icon: 'dribbble', url: '//' },
+    //{ icon: 'skype', url: '//' },
+    //{ icon: 'linkedin-squared', url: '//' }
   ],
   projects: [
     {
