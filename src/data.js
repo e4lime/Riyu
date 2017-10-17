@@ -80,6 +80,7 @@ module.exports = {
       description: "A simple game engine with a top down shooter game built upon the engine.",
       technicalDescription: "Made with C++ and Simple DirectMedia Layer (SDL) 1.2",
       tags: ["C++", "SDL 1.2"],
+      img: 'lime-engine_01.png',
       buttons: [
         {
           text: "Source",
