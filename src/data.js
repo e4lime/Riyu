@@ -24,8 +24,7 @@ module.exports = {
       description:  'An FPS-puzzle game made for the <a href="http://ludumdare.com/compo/rules/"> Ludum Dare 37 Compo</a> competition. Got ranked #39 in innovation!',
       technicalDescription: 'Made with the Unity game engine using C#.',
       tags: ['Unity', 'C#', 'Ludum Dare 37'],
-      alt: 'Combustion Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
-      img: '.png',
+      img: 'mutrix_01.png',
       gitsource: '', //https://github.com/e4lime/ludum-dare-37-mutrix' (Using button instead)
       buttons: [
         {
@@ -47,7 +46,7 @@ module.exports = {
       description: 'Infinite vertical jumping game made for the <a href="https://ldjam.com/events/ludum-dare/38"> Ludum Dare 38 Compo</a> competition.',
       technicalDescription: 'Made with the Unity game engine using C#. Implemented <a href="https://unity3d.com/unity/features/analytics">Unity Analytics</a> to gain insight on how users would interact within the game.',
       tags: ['Unity', 'C#', 'Ludum Dare 38'],
-      img: '.png',
+      img: 'hi-pluto!_01.png',
       buttons: [
         {
           text: "Game page",
@@ -66,15 +65,12 @@ module.exports = {
     {
       name: "Tic-Tac-Toe Online",
       description: "A classic Tic-tac-toe game with a game server room",
-      technicalDescription: "Clients connects to a master server which keeps track of active game servers. Clients can create their own custom games and register them with the master server so other clients can easily find them. The custom games themselfs are run on the hosting client. Made in Java with the network package java.net.",
+      technicalDescription: "Clients connect to a master server which keeps track of active game servers. Clients can create their custom games and register them with the master server so other clients can easily find them. The custom games themselves are run on the hosting client. Made in Java with the network package java.net.",
       tags: ["Online Multiplayer", "Java"],
+      img: 'ttto_multiple_01.png',
       buttons: [
         {
-          text: "Screenshots",
-          url: "www.emillindberg.com"
-        },
-        {
-          text: "Source",
+          text: "Screenshots & source",
           url: "https://github.com/e4lime/tic-tac-toe-online"
         }
       ]
@@ -96,6 +92,7 @@ module.exports = {
       description: "A mobile game I'm making with graphic designer <a href='http://www.alkazmi.com/'> Hassan Al Kazmi</a>. You drive through a city and throw cats on objects to gain points while you avoid vechicles and obstacles.",
       technicalDescription: "Made with the Unity game engine using C#.",
       tags: ["Unity", "C#"],
+      img: 'cat-voxel-city_01.png',
       buttons: [
         {
           text: "Gameplay video",
@@ -115,6 +112,7 @@ module.exports = {
       description: 'Get The Treasure! is a online multiplayer game where you play as one of four burglars who breaks into a museum. The goal is to steal as much loot as possible while preventing the other burglars from stealing more than you. The game never got finished beyond a vertical slice.',
       technicalDescription: 'Made with the Unity game engine using C#. The Networking was done with much appreciated help from the now obsolete "<a href="https://forum.unity.com/threads/ultimate-unity-networking-project-add-multiplayer-to-your-game-today.75385/">Ultimate Unity Networking project</a>".',
       tags: ["Online Multiplayer", "Unity", "C#"],
+      img: 'get-the-treasure_01.png',
       buttons: [
         {
           text: "Gameplay (Commentary in Swedish)",
@@ -135,7 +133,7 @@ module.exports = {
       technicalDescription: 'Made with Maya.',
       tags: ['3D Animation', 'MEL', 'Maya'],
       alt: 'Combustion Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
-      img: '.png',
+      img: 'beneath_02.png',
       gitsource: '', //https://github.com/e4lime/ludum-dare-37-mutrix' (Using button instead)
       buttons: [
         {
