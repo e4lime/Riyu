@@ -77,7 +77,7 @@ module.exports = {
     },
     {
       name: "Lime Engine",
-      description: "A simple game engine with a top down shooter game built upon the engine.",
+      description: "A simple game engine with a top-down shooter game built upon the engine.",
       technicalDescription: "Made with C++ and Simple DirectMedia Layer (SDL) 1.2",
       tags: ["C++", "SDL 1.2"],
       img: 'lime-engine_01.png',
@@ -90,7 +90,7 @@ module.exports = {
     },
     {
       name: "Cat Voxel City",
-      description: "A mobile game I'm making with graphic designer <a href='http://www.alkazmi.com/'> Hassan Al Kazmi</a>. You drive through a city and throw cats on objects to gain points while you avoid vechicles and obstacles.",
+      description: "A mobile game I'm making with graphic designer <a href='http://www.alkazmi.com/'> Hassan Al Kazmi</a>. You drive through a city and throw cats on objects to gain points while you avoid vehicles and obstacles.",
       technicalDescription: "Made with the Unity game engine using C#.",
       tags: ["Unity", "C#"],
       img: 'cat-voxel-city_01.png',
