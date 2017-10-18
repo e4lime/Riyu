@@ -90,9 +90,10 @@ module.exports = {
     },
     {
       name: "Cat Voxel City",
-      description: "A mobile game I'm making with graphic designer <a href='http://www.alkazmi.com/'> Hassan Al Kazmi</a>. You drive through a city and throw cats on objects to gain points while you avoid vehicles and obstacles.",
+      description: "You drive through a city and throw cats on objects to gain points while you avoid vehicles and obstacles.",
+      projectDescription: "A mobile game I'm making with graphic designer <a href='http://www.alkazmi.com/'> Hassan Al Kazmi</a>.",
       technicalDescription: "Made with the Unity game engine using C#.",
-      tags: ["Unity", "C#"],
+      tags: ["Mobile game", "Unity", "C#"],
       img: 'cat-voxel-city_01.png',
       buttons: [
         {
