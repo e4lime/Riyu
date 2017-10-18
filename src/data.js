@@ -99,11 +99,7 @@ module.exports = {
           text: "Gameplay video",
           url: "https://youtu.be/9mRTfZzEfmk"
         }
-        //,
-       // {
-       //   text: "Source (Only script assets)",
-        //  url: "www.google.com"
-       // }
+
       ]
     }
     ,
