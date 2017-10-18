@@ -28,7 +28,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   padding: 9px 13px;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
   text-decoration: none;
 
   background: $info-color;
@@ -53,7 +53,8 @@ body {
 .skill-tag {
   background-color: $tag-color;
   display: inline-block;
-  padding: 4px 8px;
+  padding: 4px 6px;
+  margin-bottom: 4px;
 }
 
 .testimonial {
