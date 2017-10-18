@@ -7,8 +7,8 @@ module.exports = {
   email: 'hello@emillindberg.com',
 
   cta: {
-    label: 'Get my resume',
-    url: 'resume.pdf',
+    label: 'E-mail me',
+    url: 'mailto:hello@emillindberg.com'
   },
   socials: [
     //{ icon: 'twitter', url: '//' },
