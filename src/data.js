@@ -107,8 +107,8 @@ module.exports = {
     {
       name: "Get The Treasure!",
       projectDescription: 'A 7-man group project work for the last course in my game development bachelor program. I was assigned "Lead Programmer" and were responsible for the gameplay and networking functionality. I was also the SCRUM-master for a few sprints. Made in 2011.',
-      description: 'Get The Treasure! is a online multiplayer game where you play as one of four burglars who breaks into a museum. The goal is to steal as much loot as possible while preventing the other burglars from stealing more than you. The game never got finished beyond a vertical slice.',
-      technicalDescription: 'Made with the Unity game engine using C#. The Networking was done with much appreciated help from the now obsolete "<a href="https://forum.unity.com/threads/ultimate-unity-networking-project-add-multiplayer-to-your-game-today.75385/">Ultimate Unity Networking project</a>".',
+      description: 'Get The Treasure! is an online multiplayer game where you play as one of four burglars who breaks into a museum. The goal is to steal as much loot as possible while preventing the other burglars from looting more than you. The game never got finished beyond a vertical slice.',
+      technicalDescription: 'Made with the Unity game engine using C#. The Networking was implemented with much-appreciated help from the now obsolete "<a href="https://forum.unity.com/threads/ultimate-unity-networking-project-add-multiplayer-to-your-game-today.75385/">Ultimate Unity Networking project</a>."',
       tags: ["Online Multiplayer", "Unity", "C#"],
       img: 'get-the-treasure_01.png',
       buttons: [
