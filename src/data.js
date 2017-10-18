@@ -20,6 +20,65 @@ module.exports = {
   ],
   projects: [
     {
+      name: "Cat Voxel City",
+      description: "You drive through a city and throw cats on objects to gain points while you avoid vehicles and obstacles.",
+      projectDescription: "A mobile game I'm making with graphic designer <a href='http://www.alkazmi.com/'> Hassan Al Kazmi</a>.",
+      technicalDescription: "Made with the Unity game engine using C#.",
+      tags: ["Mobile game", "Unity", "C#"],
+      img: 'cat-voxel-city_01.png',
+      buttons: [
+        {
+          text: "Gameplay video",
+          url: "https://youtu.be/9mRTfZzEfmk"
+        }
+
+      ]
+    },
+    {
+      name: "Get The Treasure!",
+      projectDescription: 'A 7-man group project work for the last course in my game development bachelor program. I was assigned "Lead Programmer" and were responsible for the gameplay and networking functionality. I was also the SCRUM-master for a few sprints. Made in 2011.',
+      description: 'Get The Treasure! is an online multiplayer game where you play as one of four burglars who breaks into a museum. The goal is to steal as much loot as possible while preventing the other burglars from looting more than you. The game never got finished beyond a vertical slice.',
+      technicalDescription: 'Made with the Unity game engine using C#. The Networking was implemented with much-appreciated help from the now obsolete "<a href="https://forum.unity.com/threads/ultimate-unity-networking-project-add-multiplayer-to-your-game-today.75385/">Ultimate Unity Networking project</a>."',
+      tags: ["Online Multiplayer", "Unity", "C#"],
+      img: 'get-the-treasure_01.png',
+      buttons: [
+        {
+          text: "Gameplay (Commentary in Swedish)",
+          url: "https://youtu.be/SLyq6plJkrw"
+        }, 
+        {
+          text: "Webplayer (obsolete)",
+          url: "https://people.dsv.su.se/~emli5523/gtt/"
+        }
+      ]
+    },
+    {
+      name: "Tic-Tac-Toe Online",
+      description: "A classic Tic-tac-toe game with a game server room",
+      technicalDescription: "Clients connect to a master server which keeps track of active game servers. Clients can create their custom games and register them with the master server so other clients can easily find them. The custom games themselves run on the hosting client. Made in Java with the network package java.net.",
+      tags: ["Online Multiplayer", "Java"],
+      img: 'ttto_multiple_01.png',
+      buttons: [
+        {
+          text: "Screenshots & source",
+          url: "https://github.com/e4lime/tic-tac-toe-online"
+        }
+      ]
+    },
+    {
+      name: "Lime Engine",
+      description: "A simple game engine with a top-down shooter game built upon the engine.",
+      technicalDescription: "Made with C++ and Simple DirectMedia Layer (SDL) 1.2",
+      tags: ["C++", "SDL 1.2"],
+      img: 'lime-engine_01.png',
+      buttons: [
+        {
+          text: "Source",
+          url: "https://github.com/e4lime/lime-engine"
+        }
+      ]
+    },
+    {
       name: 'Mutrix',
       description:  'An FPS-puzzle game made for the <a href="http://ludumdare.com/compo/rules/"> Ludum Dare 37 Compo</a> competition. Got ranked #39 in innovation!',
       technicalDescription: 'Made with the Unity game engine using C#.',
@@ -59,66 +118,6 @@ module.exports = {
         {
           text: "Source",
           url: 'https://github.com/e4lime/ludum-dare-38-hi-pluto'
-        }
-      ]
-    },
-    {
-      name: "Tic-Tac-Toe Online",
-      description: "A classic Tic-tac-toe game with a game server room",
-      technicalDescription: "Clients connect to a master server which keeps track of active game servers. Clients can create their custom games and register them with the master server so other clients can easily find them. The custom games themselves run on the hosting client. Made in Java with the network package java.net.",
-      tags: ["Online Multiplayer", "Java"],
-      img: 'ttto_multiple_01.png',
-      buttons: [
-        {
-          text: "Screenshots & source",
-          url: "https://github.com/e4lime/tic-tac-toe-online"
-        }
-      ]
-    },
-    {
-      name: "Lime Engine",
-      description: "A simple game engine with a top-down shooter game built upon the engine.",
-      technicalDescription: "Made with C++ and Simple DirectMedia Layer (SDL) 1.2",
-      tags: ["C++", "SDL 1.2"],
-      img: 'lime-engine_01.png',
-      buttons: [
-        {
-          text: "Source",
-          url: "https://github.com/e4lime/lime-engine"
-        }
-      ]
-    },
-    {
-      name: "Cat Voxel City",
-      description: "You drive through a city and throw cats on objects to gain points while you avoid vehicles and obstacles.",
-      projectDescription: "A mobile game I'm making with graphic designer <a href='http://www.alkazmi.com/'> Hassan Al Kazmi</a>.",
-      technicalDescription: "Made with the Unity game engine using C#.",
-      tags: ["Mobile game", "Unity", "C#"],
-      img: 'cat-voxel-city_01.png',
-      buttons: [
-        {
-          text: "Gameplay video",
-          url: "https://youtu.be/9mRTfZzEfmk"
-        }
-
-      ]
-    }
-    ,
-    {
-      name: "Get The Treasure!",
-      projectDescription: 'A 7-man group project work for the last course in my game development bachelor program. I was assigned "Lead Programmer" and were responsible for the gameplay and networking functionality. I was also the SCRUM-master for a few sprints. Made in 2011.',
-      description: 'Get The Treasure! is an online multiplayer game where you play as one of four burglars who breaks into a museum. The goal is to steal as much loot as possible while preventing the other burglars from looting more than you. The game never got finished beyond a vertical slice.',
-      technicalDescription: 'Made with the Unity game engine using C#. The Networking was implemented with much-appreciated help from the now obsolete "<a href="https://forum.unity.com/threads/ultimate-unity-networking-project-add-multiplayer-to-your-game-today.75385/">Ultimate Unity Networking project</a>."',
-      tags: ["Online Multiplayer", "Unity", "C#"],
-      img: 'get-the-treasure_01.png',
-      buttons: [
-        {
-          text: "Gameplay (Commentary in Swedish)",
-          url: "https://youtu.be/SLyq6plJkrw"
-        }, 
-        {
-          text: "Webplayer (obsolete)",
-          url: "https://people.dsv.su.se/~emli5523/gtt/"
         }
       ]
     }
