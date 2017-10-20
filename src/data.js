@@ -1,7 +1,7 @@
 module.exports = {
   title: "Emil Lindberg's portfolio",
   header: 'Emil Lindberg',
-  description: "Software developer based in Stockholm, Sweden. Loves to create and play video games, make and listen to music, learn new things, exercise and nerd about science.",
+  description: "Software developer based in Stockholm, Sweden. Loves to create and play video games, make and listen to music, exercise, learn new things and nerd about science and scepticism.",
   name: 'Emil Lindberg',
   footerTitle: 'Software Developer',
   email: 'hello@emillindberg.com',
@@ -71,7 +71,7 @@ module.exports = {
     },
     { // Swap technicalDescription with projectDescription for ludum dare games. "Made for ludum..." is less interesting than technology
       name: 'Mutrix',
-      description: "An FPS-puzzle game where you control your characters eyes to detect abnormalities among game objects in a 3D-world. Abnormalities are game objects that aren't visible for both your eyes. By steering your character's left and right eye separately, you can align your eyes to easier detect these defects.",
+      description: "An FPS-puzzle game where you control your characters eyes to detect abnormalities among game objects in a 3D-world. Abnormalities are game objects that aren't visible for both your eyes. By steering your character's left and right eye separately, you can align your eyes to detect these defects.",
       technicalDescription:  'Made for the <a href="http://ludumdare.com/compo/rules/"> Ludum Dare 37 Compo</a> competition. "Mutrix" got ranked #39 in innovation!',
       projectDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C# and <a href="http://dotween.demigiant.com/">DOTween</a>.',
       tags: ['Unity', 'C#', 'Ludum Dare 37'],
@@ -135,7 +135,7 @@ module.exports = {
     {
       name: 'Beneath',
       projectDescription: 'An 8-man project work for a 3D animation program. We had a half semester worth of time to produce a short 3D animation in Maya using Disneys 12 animation principles. Our group created everything, but the primary focus of the project was the animation. My tasks were animation, 3D-modelling and UV-mapping and some MEL-scripting. I animated the scene from 2:54 to the end credits. I created tools with MEL to assist parts of the project, such as the animation of the shaking utility hole cover and the water rendering.',
-      description: 'Beneath is a 3D animated 3-min short film about a father and a son who works as sewer explorers in Stockholm. Beneath was shown at <a href="http://tellusbio.nu/">Biocafé Tellus</a>.',
+      description: 'Beneath is a 3D animated short film about a father and a son who works as sewer explorers in Stockholm. Beneath was shown at <a href="http://tellusbio.nu/">Biocafé Tellus</a>.',
       technicalDescription: 'Made with <a href="https://www.autodesk.com/products/maya/overview">Autodesk Maya</a>.',
       tags: ['3D Animation', 'MEL', 'Autodesk Maya'],
       alt: 'Part of my scene. The father holds a lit flashlight.',
