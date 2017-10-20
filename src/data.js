@@ -58,7 +58,7 @@ module.exports = {
       name: "Tic-Tac-Toe Online",
       description: "A classic Tic-tac-toe game with a game server room.",
       projectDescription: "Clients connect to a master server which keeps track of active game servers. Clients can create their custom games and register them with the master server so other clients can easily find them. The custom games themselves run on the hosting client.",
-      technicalDescription: 'Made in Java with the network package: "java.net".',
+      technicalDescription: 'Made in Java with the network package <a href="https://docs.oracle.com/javase/7/docs/api/java/net/package-summary.html">java.net</a>.',
       tags: ["Online Multiplayer", "Java"],
       img: 'ttto_multiple_01.png',
       alt: "The masterserver, the client's game lobby and two clients playing a game.",
