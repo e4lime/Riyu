@@ -12,14 +12,18 @@ body {
 }
 
 .container {
+  background-color: rgb(245, 245, 245);
   padding: 0 20px 20px 20px;
-  margin: 0 auto;
-
+  margin: 50px auto;
+  
+  border: double rgb(218, 218, 218) 4px;
   @media #{$tablet} {
     max-width: 900px;
     padding: 0 30px 50px 30px;
   }
 }
+
+
 
 .btn {
   border-radius: 3px;
