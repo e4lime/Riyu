@@ -65,24 +65,11 @@ module.exports = {
         }
       ]
     },
-    {
-      name: "Lime Engine",
-      description: "A simple game engine with a top-down shooter game built upon the engine.",
-      technicalDescription: "Made with C++ and Simple DirectMedia Layer (SDL) 1.2",
-      tags: ["C++", "SDL 1.2"],
-      img: 'lime-engine_01.png',
-      buttons: [
-        {
-          text: "Source",
-          url: "https://github.com/e4lime/lime-engine"
-        }
-      ]
-    },
-    {
+    { // Swap technicalDescription with projectDescription for ludum dare games. "Made for ludum..." is less interesting than technology
       name: 'Mutrix',
       description: "An FPS-puzzle game where you control your characters eyes to detect abnormalities among game objects in a 3D-world. Abnormalities are game objects that aren't visible for both your eyes. By steering your character's left and right eye separately, you can align your eyes to easier detect these defects.",
-      projectDescription:  'An FPS-puzzle game made for the <a href="http://ludumdare.com/compo/rules/"> Ludum Dare 37 Compo</a> competition. Got ranked #39 in innovation!',
-      technicalDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C# and <a href="http://dotween.demigiant.com/">DOTween</a>.',
+      technicalDescription:  'Made for the <a href="http://ludumdare.com/compo/rules/"> Ludum Dare 37 Compo</a> competition. "Mutrix" got ranked #39 in innovation!',
+      projectDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C# and <a href="http://dotween.demigiant.com/">DOTween</a>.',
       tags: ['Unity', 'C#', 'Ludum Dare 37'],
       img: 'mutrix_01.png',
       gitsource: '', //https://github.com/e4lime/ludum-dare-37-mutrix' (Using button instead)
@@ -101,11 +88,12 @@ module.exports = {
         }
       ]
     },
-    {
+    { // Swap technicalDescription with projectDescription for ludum dare games. "Made for ludum..." is less interesting than technology
       name: 'Hi Pluto!',
-      description: 'Infinite vertical jumping game made for the <a href="https://ldjam.com/events/ludum-dare/38"> Ludum Dare 38 Compo</a> competition.',
-      technicalDescription: 'Made with the Unity game engine using C#. Implemented <a href="https://unity3d.com/unity/features/analytics">Unity Analytics</a> to gain insight on how users would interact within the game.',
-      tags: ['Unity', 'C#', 'Ludum Dare 38'],
+      description: '"Hi Pluto!" is a classic infinite vertical jumping game where you play as Earth jumping upwards on asteroids to reach Pluto. Control Earth\'s horizontal movement with your mouse and aim for the asteroids and the golden comet checkpoints while you avoid dropping out of the screen.',
+      technicalDescription: 'Made for the <a href="https://ldjam.com/events/ludum-dare/38"> Ludum Dare 38 Compo</a> competition.',
+      projectDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C# and <a href="http://dotween.demigiant.com/">DOTween</a>. Implemented <a href="https://unity3d.com/unity/features/analytics">Unity Analytics</a> to gain insight on how users would interact within the game.',
+      tags: ['Game Analytics', 'Unity', 'C#', 'Ludum Dare 38'],
       img: 'hi-pluto!_01.png',
       buttons: [
         {
@@ -121,7 +109,20 @@ module.exports = {
           url: 'https://github.com/e4lime/ludum-dare-38-hi-pluto'
         }
       ]
-    }
+    },
+    {
+      name: "Lime Engine",
+      description: "A simple game engine with a top-down shooter game built upon the engine.",
+      technicalDescription: "Made with C++ and Simple DirectMedia Layer (SDL) 1.2",
+      tags: ["C++", "SDL 1.2"],
+      img: 'lime-engine_01.png',
+      buttons: [
+        {
+          text: "Source",
+          url: "https://github.com/e4lime/lime-engine"
+        }
+      ]
+    },
   ],
   otherProjects: [
     {
