@@ -23,7 +23,7 @@ module.exports = {
       name: "Cat Voxel City",
       description: "You drive through a city and throw cats on objects to gain points while you avoid vehicles and obstacles.",
       projectDescription: "A mobile game I'm making with graphic designer <a href='http://www.alkazmi.com/'> Hassan Al Kazmi</a>.",
-      technicalDescription: 'Uses <a href="https://unity3d.com/unity">Unity game engine</a> with C# and various .',
+      technicalDescription: 'Uses <a href="https://unity3d.com/unity">Unity game engine</a> with following libraries: <a href="http://dotween.demigiant.com/">DOTween</a>, <a href="https://sites.google.com/site/carloswilkes/lean/lean-touch">Lean Touch</a> and <a href="https://forum.unity.com/threads/animfollow-active-ragdoll-is-now-free-to-download.220812/">AnimFollow</a>.',
       tags: ["Mobile game", "Unity", "C#"],
       img: 'cat-voxel-city_01.png',
       buttons: [
