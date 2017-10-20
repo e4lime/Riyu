@@ -25,6 +25,7 @@ module.exports = {
       projectDescription: "A mobile game I'm making with graphic designer <a href='http://www.alkazmi.com/'> Hassan Al Kazmi</a>.",
       technicalDescription: 'Uses <a href="https://unity3d.com/unity">Unity game engine</a> with following libraries: <a href="http://dotween.demigiant.com/">DOTween</a>, <a href="https://sites.google.com/site/carloswilkes/lean/lean-touch">Lean Touch</a> and <a href="https://forum.unity.com/threads/animfollow-active-ragdoll-is-now-free-to-download.220812/">AnimFollow</a>.',
       tags: ["Mobile game", "Unity", "C#"],
+      alt: "A car drives through a city and fires its weapon on a tree that falls into pieces.",
       img: 'cat-voxel-city_01.png',
       buttons: [
         {
@@ -41,6 +42,7 @@ module.exports = {
       technicalDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C#. The Networking was implemented with much-appreciated help from the now obsolete "<a href="https://forum.unity.com/threads/ultimate-unity-networking-project-add-multiplayer-to-your-game-today.75385/">Ultimate Unity Networking project</a>."',
       tags: ["Online Multiplayer", "Unity", "C#"],
       img: 'get-the-treasure_01.png',
+      alt: 'An over the shoulder thirdperson camera is showing a burglar from behind in a big room. A trap is lying on the floor infront of him. Paintings that can be looted hangs on the wall.',
       buttons: [
         {
           text: "Gameplay (Commentary in Swedish)",
@@ -54,10 +56,12 @@ module.exports = {
     },
     {
       name: "Tic-Tac-Toe Online",
-      description: "A classic Tic-tac-toe game with a game server room",
-      technicalDescription: "Clients connect to a master server which keeps track of active game servers. Clients can create their custom games and register them with the master server so other clients can easily find them. The custom games themselves run on the hosting client. Made in Java with the network package java.net.",
+      description: "A classic Tic-tac-toe game with a game server room.",
+      projectDescription: "Clients connect to a master server which keeps track of active game servers. Clients can create their custom games and register them with the master server so other clients can easily find them. The custom games themselves run on the hosting client.",
+      technicalDescription: 'Made in Java with the network package: "java.net".',
       tags: ["Online Multiplayer", "Java"],
       img: 'ttto_multiple_01.png',
+      alt: "The masterserver, the client's game lobby and two clients playing a game.",
       buttons: [
         {
           text: "Screenshots & source",
@@ -72,6 +76,7 @@ module.exports = {
       projectDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C# and <a href="http://dotween.demigiant.com/">DOTween</a>.',
       tags: ['Unity', 'C#', 'Ludum Dare 37'],
       img: 'mutrix_01.png',
+      alt: 'Screen is split vertically in the middle into two screens. The left screen represent the left eye and the right screen the right eye. ',
       gitsource: '', //https://github.com/e4lime/ludum-dare-37-mutrix' (Using button instead)
       buttons: [
         {
@@ -95,6 +100,7 @@ module.exports = {
       projectDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C# and <a href="http://dotween.demigiant.com/">DOTween</a>. Implemented <a href="https://unity3d.com/unity/features/analytics">Unity Analytics</a> to gain insight on how users would interact within the game.',
       tags: ['Game Analytics', 'Unity', 'C#', 'Ludum Dare 38'],
       img: 'hi-pluto!_01.png',
+      alt: 'Earth, asteroids and a comet is shown. Jupiter and Mars are in the background.',
       buttons: [
         {
           text: "Game page",
@@ -113,8 +119,9 @@ module.exports = {
     {
       name: "Lime Engine",
       description: "A simple game engine with a top-down shooter game built upon the engine.",
-      technicalDescription: "Made with C++ and Simple DirectMedia Layer (SDL) 1.2",
+      technicalDescription: "Made with C++ and <a href='https://www.libsdl.org/'>Simple DirectMedia Layer (SDL) 1.2</a>",
       tags: ["C++", "SDL 1.2"],
+      alt: 'Gameplay where the player fires at alot of enemy ships.',
       img: 'lime-engine_01.png',
       buttons: [
         {
@@ -129,9 +136,9 @@ module.exports = {
       name: 'Beneath',
       projectDescription: 'An 8-man project work for a 3D animation program. We had a half semester worth of time to produce a short 3D animation in Maya using Disneys 12 animation principles. Our group created everything, but the primary focus of the project was the animation. My tasks were animation, 3D-modelling and UV-mapping and some MEL-scripting. I animated the scene from 2:54 to the end credits. I created tools with MEL to assist parts of the project, such as the animation of the shaking utility hole cover and the water rendering.',
       description: 'Beneath is a 3D animated 3-min short film about a father and a son who works as sewer explorers in Stockholm. Beneath was shown at <a href="http://tellusbio.nu/">Biocafé Tellus</a>.',
-      technicalDescription: 'Made with Maya.',
-      tags: ['3D Animation', 'MEL', 'Maya'],
-      alt: 'Combustion Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
+      technicalDescription: 'Made with <a href="https://www.autodesk.com/products/maya/overview">Autodesk Maya</a>.',
+      tags: ['3D Animation', 'MEL', 'Autodesk Maya'],
+      alt: 'Part of my scene. The father holds a lit flashlight.',
       img: 'beneath_02.png',
       gitsource: '', //https://github.com/e4lime/ludum-dare-37-mutrix' (Using button instead)
       buttons: [
