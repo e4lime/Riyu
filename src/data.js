@@ -37,7 +37,7 @@ module.exports = {
     },
     {
       name: "Get The Treasure!",
-      projectDescription: 'A 7-man group project work for the last course in my game development bachelor program. I was assigned "Lead Programmer" and were responsible for the gameplay and networking functionality. I was also the SCRUM-master for a few sprints. Made in 2011.',
+      projectDescription: 'A 7-man group project work for the last course in my game development bachelor program. I was assigned "Lead Programmer" and were responsible for the gameplay and networking functionality. I was also the SCRUM-master for a few sprints.',
       description: 'Get The Treasure! is an online multiplayer game where you play as one of four burglars who breaks into a museum. The goal is to steal as much loot as possible while preventing the other burglars from looting more than you. The game never got finished beyond a vertical slice.',
       technicalDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C#. The Networking was implemented with much-appreciated help from the now obsolete "<a href="https://forum.unity.com/threads/ultimate-unity-networking-project-add-multiplayer-to-your-game-today.75385/">Ultimate Unity Networking project</a>."',
       tags: ["Online Multiplayer", "Unity", "C#"],
@@ -97,7 +97,7 @@ module.exports = {
       name: 'Hi Pluto!',
       description: '"Hi Pluto!" is a classic infinite vertical jumping game where you play as Earth jumping upwards on asteroids to reach Pluto. Control Earth\'s horizontal movement with your mouse and aim for the asteroids and the golden comet checkpoints while you avoid dropping out of the screen.',
       technicalDescription: 'Made for the <a href="https://ldjam.com/events/ludum-dare/38"> Ludum Dare 38 Compo</a> competition.',
-      projectDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C# and <a href="http://dotween.demigiant.com/">DOTween</a>. Implemented <a href="https://unity3d.com/unity/features/analytics">Unity Analytics</a> to gain insight on how users would interact within the game.',
+      projectDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C# and <a href="http://dotween.demigiant.com/">DOTween</a>. Implemented <a href="https://unity3d.com/unity/features/analytics">Unity Analytics</a> to gain insight on how users would interact within the game. Graphics were made with <a href="https://www.blender.org/">Blender</a> and <a href="https://krita.org/en/">Krita</a>.',
       tags: ['Game Analytics', 'Unity', 'C#', 'Ludum Dare 38'],
       img: 'hi-pluto!_01.png',
       alt: 'Earth, asteroids and a comet is shown. Jupiter and Mars are in the background.',
