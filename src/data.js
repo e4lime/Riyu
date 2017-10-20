@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'Emil Lindberg',
+  title: "Emil Lindberg's portfolio",
   header: 'Emil Lindberg',
-  description: "Software developer based in Stockholm, Sweden. Loves to make and play video games, create and listen to music, learn new things, exercising and nerd about science.",
+  description: "Software developer based in Stockholm, Sweden. Loves to create and play video games, make and listen to music, learn new things, exercise and nerd about science.",
   name: 'Emil Lindberg',
   footerTitle: 'Software Developer',
   email: 'hello@emillindberg.com',
@@ -80,8 +80,9 @@ module.exports = {
     },
     {
       name: 'Mutrix',
-      description:  'An FPS-puzzle game made for the <a href="http://ludumdare.com/compo/rules/"> Ludum Dare 37 Compo</a> competition. Got ranked #39 in innovation!',
-      technicalDescription: 'Made with the Unity game engine using C#.',
+      description: "An FPS-puzzle game where you control your characters eyes to detect abnormalities among game objects in a 3D-world. Abnormalities are game objects that aren't visible for both your eyes. By steering your character's left and right eye separately, you can align your eyes to easier detect these defects.",
+      projectDescription:  'An FPS-puzzle game made for the <a href="http://ludumdare.com/compo/rules/"> Ludum Dare 37 Compo</a> competition. Got ranked #39 in innovation!',
+      technicalDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C# and <a href="http://dotween.demigiant.com/">DOTween</a>.',
       tags: ['Unity', 'C#', 'Ludum Dare 37'],
       img: 'mutrix_01.png',
       gitsource: '', //https://github.com/e4lime/ludum-dare-37-mutrix' (Using button instead)
