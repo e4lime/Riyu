@@ -23,7 +23,7 @@ module.exports = {
       name: "Cat Voxel City",
       description: "You drive through a city and throw cats on objects to gain points while you avoid vehicles and obstacles.",
       projectDescription: "A mobile game I'm making with graphic designer <a href='http://www.alkazmi.com/'> Hassan Al Kazmi</a>.",
-      technicalDescription: "Made with the Unity game engine using C#.",
+      technicalDescription: 'Uses <a href="https://unity3d.com/unity">Unity game engine</a> with C# and various .',
       tags: ["Mobile game", "Unity", "C#"],
       img: 'cat-voxel-city_01.png',
       buttons: [
@@ -38,7 +38,7 @@ module.exports = {
       name: "Get The Treasure!",
       projectDescription: 'A 7-man group project work for the last course in my game development bachelor program. I was assigned "Lead Programmer" and were responsible for the gameplay and networking functionality. I was also the SCRUM-master for a few sprints. Made in 2011.',
       description: 'Get The Treasure! is an online multiplayer game where you play as one of four burglars who breaks into a museum. The goal is to steal as much loot as possible while preventing the other burglars from looting more than you. The game never got finished beyond a vertical slice.',
-      technicalDescription: 'Made with the Unity game engine using C#. The Networking was implemented with much-appreciated help from the now obsolete "<a href="https://forum.unity.com/threads/ultimate-unity-networking-project-add-multiplayer-to-your-game-today.75385/">Ultimate Unity Networking project</a>."',
+      technicalDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C#. The Networking was implemented with much-appreciated help from the now obsolete "<a href="https://forum.unity.com/threads/ultimate-unity-networking-project-add-multiplayer-to-your-game-today.75385/">Ultimate Unity Networking project</a>."',
       tags: ["Online Multiplayer", "Unity", "C#"],
       img: 'get-the-treasure_01.png',
       buttons: [
