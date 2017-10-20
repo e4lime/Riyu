@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  background-color: rgb(245, 245, 245);
+  background-color: $container-color;
   padding: 0 20px 20px 20px;
   margin: 50px auto;
   
@@ -37,7 +37,7 @@ body {
 
   background: $info-color;
   color: $info-text-color;
-
+  border: solid black 1px;
   &--primary {
     background: $main-color;
     color: $main-text-color;
