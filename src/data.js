@@ -38,7 +38,7 @@ module.exports = {
       name: "Brick Racer",
       description: "A mobile racing game with an online high score table. I'm currently remaking and monetizing it so I can release it on mobile markets.",
       projectDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C#. Used <a href="https://www.dreamlo.com">dreamlo</a> for the high score table.',
-      technicalDescription:  'Made for the <a href="https://ldjam.com/events/ludum-dare/40/results/fun/jam/"> Ludum Dare 40 Jam</a> competition. "Brick Racer" got ranked #12 out of 1818 games in the fun category!',
+      technicalDescription:  'Made during the <a href="https://ldjam.com/events/ludum-dare/40/results/fun/jam/"> Ludum Dare 40 Jam</a> competition. "Brick Racer" got ranked #12 out of 1818 games in the fun category!',
       tags: ["Mobile game","Unity", "Ludum Dare 40"],
       alt: "A car drives through a city and fires its weapon on a tree that falls into pieces.",
       img: 'brick-racer_01.png',
@@ -94,7 +94,7 @@ module.exports = {
     { // Swap technicalDescription with projectDescription for ludum dare games. "Made for ludum..." is less interesting than technology
       name: 'Mutrix',
       description: "An FPS-puzzle game where you control your characters eyes to detect abnormalities among game objects in a 3D-world. Abnormalities are game objects that aren't visible for both your eyes. By steering your character's left and right eye separately, you can align your eyes to detect these defects.",
-      technicalDescription:  'Made for the <a href="http://ludumdare.com/compo/rules/"> Ludum Dare 37 Compo</a> competition. "Mutrix" got ranked #39 in innovation!',
+      technicalDescription:  'Made during the <a href="http://ludumdare.com/compo/rules/"> Ludum Dare 37 Compo</a> competition. "Mutrix" got ranked #39 in innovation!',
       projectDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C# and <a href="http://dotween.demigiant.com/">DOTween</a>.',
       tags: ['Unity', 'Ludum Dare 37'],
       img: 'mutrix_01.png',
@@ -118,7 +118,7 @@ module.exports = {
     { // Swap technicalDescription with projectDescription for ludum dare games. "Made for ludum..." is less interesting than technology
       name: 'Hi Pluto!',
       description: '"Hi Pluto!" is a classic infinite vertical jumping game where you play as Earth jumping upwards on asteroids to reach Pluto. Control Earth\'s horizontal movement with your mouse and aim for the asteroids and the golden comet checkpoints while you avoid dropping out of the screen.',
-      technicalDescription: 'Made for the <a href="https://ldjam.com/events/ludum-dare/38"> Ludum Dare 38 Compo</a> competition.',
+      technicalDescription: 'Made during the <a href="https://ldjam.com/events/ludum-dare/38"> Ludum Dare 38 Compo</a> competition.',
       projectDescription: 'Made with the <a href="https://unity3d.com/unity">Unity game engine</a> using C# and <a href="http://dotween.demigiant.com/">DOTween</a>. Implemented <a href="https://unity3d.com/unity/features/analytics">Unity Analytics</a> to gain insight on how users would interact within the game. Graphics were made with <a href="https://www.blender.org/">Blender</a> and <a href="https://krita.org/en/">Krita</a>.',
       tags: ['Game Analytics', 'Unity', 'Mobile Game', 'Standalone', 'Ludum Dare 38'],
       img: 'hi-pluto!_01.png',
