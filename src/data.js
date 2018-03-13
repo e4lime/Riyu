@@ -41,7 +41,7 @@ module.exports = {
       technicalDescription:  'Made for the <a href="https://ldjam.com/events/ludum-dare/40/results/fun/jam/"> Ludum Dare 40 Jam</a> competition. "Brick Racer" got ranked #12 out of 1818 games in the fun category!',
       tags: ["Mobile game","Unity", "Ludum Dare 40"],
       alt: "A car drives through a city and fires its weapon on a tree that falls into pieces.",
-      img: 'cat-voxel-city_01.png',
+      img: 'brick-racer_01.png',
       buttons: [
         {
           text: "Game page",
